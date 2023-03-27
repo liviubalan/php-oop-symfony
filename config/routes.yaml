@@ -6,18 +6,3 @@ hello:
     path: /hello
     controller: App\Controller\WorkshopPhp::hello
 
-index_products:
-    path: /products
-    controller: App\Controller\ProductController::index
-
-create_product:
-    path: /product
-    controller: App\Controller\ProductController::createProduct
-
-product_show:
-    path: /product/{id}
-    controller: App\Controller\ProductController::show
-
-product_edit:
-    path: /product/edit/{id}
-    controller: App\Controller\ProductController::update
